@@ -1,0 +1,101 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap{
+  background-color: cadetblue;
+  padding: 32px 0 64px;
+}
+
+.content{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0 rgb(75, 75, 75);/*水平方向の距離 垂直方向の距離 ぼかし距離 広がり距離 影の色*/
+  border-radius: 10px;
+  padding: 32px;
+  background-color: #fff;
+}
+
+#img_01{
+  margin-top: 3em;
+}
+
+#img_01 img{
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.furigana{
+  font-size: small;
+  font-weight: 100;
+}
+
+.heading-lv1{
+  font-size: 32px;
+  font-style: italic;
+}
+
+.heading-lv2{
+  font-size: 24px;
+}
+
+.heading-lv3{
+  font-size: 20px;
+}
+
+.heading-margin{
+  margin-top: 32px;
+}
+
+.text{
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.sns {
+    list-style: none;
+    display: flex;
+    margin-top: 16px;
+}
+
+.sns li {
+    padding: 16px 32px;
+    margin-right: 10px;
+}
+
+.sns li a {
+    color: white;
+    text-decoration: none;/*下線なし*/
+}
+
+.sns li i {
+    margin-right: 5px;
+}
+
+.sns li.twitter {
+    background-color: #1DA1F2;
+}
+
+.sns li.facebook {
+    background-color: #3B5998;
+}
+
+.sns li.instagram {
+    background-color: #CF2E92;
+}
+
+.git{
+  list-style: none;
+}
+
+.ol {
+    margin-top: 16px;
+    border: 1px solid black;
+    padding: 16px 16px 16px 32px;
+}
